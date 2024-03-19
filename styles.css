@@ -1,0 +1,286 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f9f0; /* light green background */
+    background-image: url('quezont.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
+header {
+    background-color: #6082B6 ; /* green header */
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: fixed;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #6082B6 ; /* dark green navigation */
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+nav1 {
+    background-color: #6082B6 ; /* dark green navigation */
+    color: #fff;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+nav1 a.que:hover {
+    background-color: transparent; /* Keep background color transparent on hover */
+    color: #fff; /* Keep text color white on hover */
+    padding: 0px; /* Maintain the original padding */
+}
+
+nav1 a {
+    color: #fff;
+    overflow: hidden;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s; /* Smooth transition for background color and text color change */
+    margin: 0 10px;
+}
+
+nav1 a.active {
+    background-color: #fff; /* Change background color of active link */
+    color: #6082B6 ; /* Change text color of active link */
+    padding: 1px 10px;
+    overflow: hidden;
+}
+
+nav1 a:hover {
+    background-color: #fff; /* Change background color on hover */
+    color: #6082B6 ; /* Change text color on hover */
+    padding: 10px 10px;
+    overflow: hidden;
+}
+
+nav a.que:hover {
+    background-color: transparent; /* Keep background color transparent on hover */
+    color: #fff; /* Keep text color white on hover */
+    padding: 0px; /* Maintain the original padding */
+}
+
+.que{
+    font-size: 30px;
+    font-family: "Georgia";
+}
+
+nav a {
+    color: #fff;
+    overflow: hidden;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s; /* Smooth transition for background color and text color change */
+    margin: 0 30px;
+}
+nav a.active {
+    background-color: #fff; /* Change background color of active link */
+    color: #6082B6 ; /* Change text color of active link */
+    padding: 1px 10px;
+    overflow: hidden;
+}
+nav a:hover {
+    background-color: #fff; /* Change background color on hover */
+    color: #6082B6 ; /* Change text color on hover */
+    padding: 15px 10px;
+    overflow: hidden;
+}
+
+.other-links {
+    text-align: center;
+    overflow: hidden;
+    padding-right: 10%;
+    flex-grow: 1;
+    margin: 10px 20px;
+}
+.google-map {
+    padding-bottom: 50%;
+    float: left;
+    position: relative;
+}
+div map{
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+  }
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.star{
+    font-family: "Georgia";
+    font-size: 80px;
+}
+.tbc{
+    font-family: "Georgia";
+    font-size: 50px;
+}
+.desc {
+    font-family: "Arial", sans-serif;
+    font-size: 40px; /* Adjust font size as needed */
+    text-align: center;
+}
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #6082B6 ; /* green footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    width: 100%; /* Ensure container fills the entire width of its parent */
+}
+.container img {
+    width: 100%; /* Make the image width fill its container */
+    display: block; /* Ensure the image behaves as a block element */
+}
+.histo{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.hisd{
+    font-family: "Arial";
+    font-size: 25px;
+    text-align: center;
+}
+.sudlanan {
+    display: flex;
+    justify-content: space-between;
+}
+.column1, .column2, .column3 {
+    width: 33.33%; /* Adjust width as needed */
+    padding: 10px;
+    float: left;
+    border: collapse; /* Optional: add border for visual separation */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+.sudlanan a {
+    color: #010f24;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s; /* Smooth transition for background color and text color change */
+    margin: 0 30px;
+}
+.sudlanan a:hover {
+    background-color: #fff; /* Change background color on hover */
+    color: #6082B6 ; /* Change text color on hover */
+    padding: 0px 0px;
+}
+.hotel{
+    padding-top: 50px;
+    border-top: 1px solid black;;
+}
+.hoteldet{
+    padding-top: 20px;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+.hotel a{
+    color:black;
+}
+.hotel a:hover{
+    background-color: #fff; /* Change background color on hover */
+    color: #6082B6 ; /* Change text color on hover */
+    overflow: hidden;
+}
+.land{
+    border-top: 1px solid black; /* Add border with 1px width and solid black color */
+  margin-bottom: 20px; 
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.land a{
+    color:black;
+}
+.land a:hover{
+    background-color: #fff; /* Change background color on hover */
+    color: #6082B6 ; /* Change text color on hover */
+    overflow: hidden;
+}
+.pad{
+    text-align: center;
+    padding: 50px;
+}
+.left, .right{
+    padding: 10px;
+    width: 50%;
+}
+.column1 a, .column2 a, .column3 a{
+    color:black;
+}
+.column1 a:hover, .column2 a:hover, .column3 a:hover{
+    background-color: #fff; /* Change background color on hover */
+    color: #6082B6 ; /* Change text color on hover */
+    overflow: hidden;
+}
+.column1, .column2, .column3 {
+        float: left;
+        width: 33.33%;
+        /* The width is 20%, by default */
+    }
+
+    @media screen and (max-width: 1750px) {
+
+.column1, .column2, .column3 {
+            width: 50%;
+        }
+    }
+
+    /* Use a media query to add a breakpoint at 800px: */
+    @media screen and (max-width: 1200px) {
+
+.column1, .column2, .column3 {
+            width: 100%;
+            /* The width is 100%, when the viewport is 800px or smaller */
+        }
+    }
+@media only screen and (min-width: 600px) {
+
+
+    /* Adjust header padding for smaller screens */
+    header {
+        padding: 10px;
+    }
+
+    /* Adjust font size and padding for navigation links on smaller screens */
+    nav {
+        padding: 5px;
+    }
+
+    nav a {
+        margin: 0 5px;
+    }
+
+    /* Adjust padding for sections on smaller screens */
+    section {
+        padding: 10px;
+    }
+
+    /* Adjust font size for footer on smaller screens */
+    footer {
+        padding: 5px;
+    }
+
+}
